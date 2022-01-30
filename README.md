@@ -44,7 +44,7 @@ make clean
 make I2C_MODE=LINUX
 ```
 
-### BCM2835 Library Mode
+<!-- ### BCM2835 Library Mode
 
 To use the bcm2835 library, install like so:
 
@@ -62,7 +62,7 @@ cd bcm2835-1.55
 ./configure
 make
 sudo make install
-```
+``` -->
 
 ### Dependencies
 
@@ -82,8 +82,8 @@ sudo apt install libsdl2-dev
 
 After installing the dependencies, you can build the library. Build-modes are:
 
-* `make` or `make all`: build the library and all dependencies. Default is to use standard linux I2C-Drivers, specify Raspberry Pi driver with `make I2C_MODE=RPI`
-* `make examples`: only build examples, see below
+<!-- * `make` or `make all`: build the library and all dependencies. Default is to use standard linux I2C-Drivers, specify Raspberry Pi driver with `make I2C_MODE=RPI`
+* `make examples`: only build examples, see below -->
 * `sudo make install`: install libraries and headers into `$PREFIX`, default is `/usr/local`
 
 Afterwards you can run the examples or build the python binding, see readme in the subfolder.
